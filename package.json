@@ -1,0 +1,21 @@
+{
+  "name": "set-automation",
+  "version": "1.0.0",
+  "description": "SetAutomation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviCapgemini215/Set-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aviCapgemini215/Set-Automation/issues"
+  },
+  "homepage": "https://github.com/aviCapgemini215/Set-Automation#readme"
+}
