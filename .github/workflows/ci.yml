@@ -7,7 +7,6 @@ on:
   pull_request:
     branches:
       - main  # Trigger workflow on PR to the main branch
-
 jobs:
   build:
     runs-on: ubuntu-latest
