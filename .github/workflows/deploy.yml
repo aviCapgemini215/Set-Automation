@@ -17,6 +17,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3  # Use the peaceiris GitHub Pages action
 
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Ensure the correct token is passed
+          github_token: ${{ secrets.AVI_TOKEN  }}  # Ensure the correct token is passed
           publish_dir: ./  # The directory to deploy (in this case, the root of the repo)
           publish_branch: gh-pages  # Specify the branch to deploy to (default is gh-pages)
