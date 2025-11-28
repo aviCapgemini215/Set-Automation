@@ -1,0 +1,22 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Run the job on the latest version of Ubuntu
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Check out the code from the repository
+
+      - name: Set up GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3  # Use the peaceiris GitHub Pages action
+
+        with:
+          github_token: ${{ secrets.AVI_TOKEN }}  # Use the default GitHub token to push
+          publish_dir: ./  # The directory to deploy (in this case, the root of the repo)
+          # If your files are in a different directory, you can change publish_dir
